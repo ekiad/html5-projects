@@ -1,0 +1,149 @@
+*{
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: left;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right bottom, green, lightgreen);
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+    color: black;
+}
+h2{
+    padding-bottom: 10px;
+}
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    color: aqua;
+    
+}
+#container{
+    width: 960px;
+}
+#header{
+    width: 960px;
+    height: 85px;
+}
+#header h1{
+    text-size-adjust: 15px;
+    float: left;
+    color: white;
+    padding: 40px 0 0 40px;
+}
+#header h2{
+   float: right; 
+   color: white;
+   padding: 40px 20px 0 0;
+}
+#header h1 span.blue-text{
+    color: blueviolet;
+}
+#header h2 span.white-text{
+    color: burlywood;
+}
+#menu{
+ display: block;
+ float: left;
+ clear: both;
+ width: 960px;
+ height: 54px;
+}
+#menu ul{
+    padding-top: 18px;
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    width: 960px;
+}
+#menu li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+    color: white;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 13px 0 13px;
+}
+.topnav{
+    width: auto;
+    background-color: blue;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+#menu-sub{
+    margin-top: 15px;
+    width: 190px;
+    float: left;
+    background-color: #00008b;
+    border-radius: 15px;
+    padding: 15px 20px 10px 10px;
+}
+#menu-sub h3{
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+    font-size: 16px;
+    color: white;
+    
+}
+#menu-sub li{
+    list-style: none;
+    padding: 15 0 8px 0;
+    border-bottom: 1px dashed;
+    color: white;
+}
+#menu-sub ul{
+    list-style: none;
+    padding: 0;
+}
+#menu-sub li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#content{
+    display: block;
+    width: 680px;
+    margin-top: 15px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid blue;
+    padding: 15px;
+    margin-left: 16px;
+    background-color: white;
+}
+
+.float{
+    margin: 15px;
+    float: right;
+}
+.developer{
+    width: 170px;
+    float: right;
+}
+ .developer ul{
+    margin-bottom: 10px;
+}
+.developer li{
+    list-style: none;
+}
+.developer ul{
+    list-style: none;
+    padding: 0;
+    line-height: 1.7em;
+}
